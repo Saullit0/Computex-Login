@@ -1,0 +1,117 @@
+/* Define o background da empresa */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/* Caixa de login */
+.login-container {
+    height: 500px;
+    padding: 20px; /* Adiciona um espaço interno */
+    background-color: #212529; /* Cor de fundo mais clara */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px; /* Aumenta um pouco a largura */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os inputs */
+}
+
+.logo {
+    width: 100px; /* Define um tamanho menor */
+    height: 100px; /* Mantém a proporção */
+    border-radius: 1px; /* Deixa a imagem circular */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    margin-bottom: 10px;
+}
+
+/* Campos de entrada com fundo laranja */
+input[type="matricula"], input[type="password"] {
+    width: 90%; /* Reduz a largura para não encostar na borda */
+    padding: 10px;
+    margin: 25px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Cor laranja */
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    box-sizing: border-box; /* Evita que o padding estoure o tamanho */
+}
+
+/* Placeholder branco */
+input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+/* Checkbox e termos alinhados corretamente */
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 5px; /* Espaço entre o checkbox e o texto */
+    margin: 10px 0 0 0;
+    margin-top: 80px;
+}
+
+.checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: #fff;
+}
+
+
+/* Link dos termos */
+.checkbox a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de login */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 190);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #353434;
+}
+.entre-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+.entre-container a:hover{
+    text-decoration: underline;
+}
+.footer-container {
+    background-color: #fff;
+    width: 10%;
+    border-radius: 10px;
+}
